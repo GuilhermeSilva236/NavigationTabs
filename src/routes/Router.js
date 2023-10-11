@@ -20,7 +20,7 @@ const Router = () => {
           options={{
             tabBarLabel: 'TELA A',
             tabBarIcon: ({ color, size }) => {
-              return <Ionicons name="home" size={size} color={color} />;
+              return <Ionicons name="chevron-back-outline" size={size} color={color} />;
             },
           }}
         />
@@ -30,7 +30,7 @@ const Router = () => {
           options={{
             tabBarLabel: 'TELA B',
             tabBarIcon: ({ color, size }) => {
-              return <Ionicons name="home" size={size} color={color} />;
+              return <Ionicons name="chevron-forward-outline" size={size} color={color} />;
             },
           }}
         />
