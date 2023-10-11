@@ -1,12 +1,8 @@
 
 import axios from 'axios';
 
-const UsersApi = axios.create({
-  baseURL: 'https://dummyjson.com/users'
+const Api = axios.create({
+  baseURL: 'https://dummyjson.com'
 });
 
-const PostsApi = axios.create({
-  baseURL: 'https://dummyjson.com/posts'
-});
-
-export { UsersApi, PostsApi };
+export default Api ; 
